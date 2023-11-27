@@ -1,9 +1,21 @@
 FiveDgts = int(input('kindly enter five digits:'))
  
-dgt5 = (FiveDgts%10)
-dgt4 = (FiveDgts%100)
-dgt3 = (FiveDgts%1000)
-dgt2 = (FiveDgts%10000)
-dgt1 = (FiveDgts%100000)
+dgt1 = (FiveDgts%10)
 
-print(dgt1)
+dgt2 = (FiveDgts//10)
+
+dgt3 = (dgt2%10)
+
+dgt4 = (dgt2//10)
+
+dgt5 = (dgt4%10)
+
+dgt6 = (dgt4//10)
+
+dgt7 = (dgt6%10)
+
+dgt8 = (dgt6//10)
+
+
+print(dgt8,   dgt7,   dgt5,   dgt3,   dgt1)
+
